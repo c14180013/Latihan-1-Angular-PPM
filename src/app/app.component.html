@@ -6,7 +6,8 @@
 </p>
 <p>
   <button (click) = hitung()>Hitung</button>
+  <button (click) = clear()>Clear</button>
 </p>
-<p>
-  {{pola}}
+
+<p *ngIf = "hasilHitung != 0" [innerHTML]="pola">
 </p>
