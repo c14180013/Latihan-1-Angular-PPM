@@ -51,7 +51,7 @@ export class AppComponent  {
     }
     else
     {
-      this.pola = "Pola B<br/>";
+      this.pola += "Pola B<br/>";
 
       for (let i = a - 1; i < this.hasilHitung; i++) {
         for (let j = 0; j <= i; j++) {
@@ -63,7 +63,7 @@ export class AppComponent  {
   }
 
   clear() {
-    this. x= "";
+    this.x = "";
     this.y = "";
     this.hasilHitung = 0;
     this.pola = "";
