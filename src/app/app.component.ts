@@ -54,7 +54,7 @@ export class AppComponent  {
       this.pola = "Pola B<br/>";
 
       for (let i = a - 1; i < this.hasilHitung; i++) {
-        for (let j = 0; j < i; j++) {
+        for (let j = 0; j <= i; j++) {
           this.pola += "*";
         }
         this.pola += "<br/>";
